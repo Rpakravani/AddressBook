@@ -4,24 +4,24 @@ This project was built to practice low‑level systems programming concepts whil
 
 🚀 Features
 - Add new contacts
-Insert contacts in alphabetical order
-Remove contacts by index or full name
-Edit existing contacts
-List all contacts
-Save contacts to file (input format)
-Export human‑readable reports
-Load, append, or merge contacts from files
-Duplicate detection
-Robust input validation
+- Insert contacts in alphabetical order
+- Remove contacts by index or full name
+- Edit existing contacts
+- List all contacts
+- Save contacts to file (input format)
+- Export human‑readable reports
+- Load, append, or merge contacts from files
+- Duplicate detection
+- Robust input validation
 
 🧠 Technical Highlights
-Dynamic Memory Management
-Contacts are stored in a NULL‑terminated dynamic array using malloc, realloc, and free.
-File Parsing
-Supports loading, appending, and merging contacts from structured text files.
-String Handling
-Uses strdup, fgets, and manual newline stripping for safe input handling.
-Input Validation
-Phone numbers, names, and ages are validated with retry logic.
-Modular Design
-All major operations are implemented as separate functions for clarity and maintainability.
+  Dynamic Memory Management
+- Contacts are stored in a NULL‑terminated dynamic array using malloc, realloc, and free.
+  File Parsing
+- Supports loading, appending, and merging contacts from structured text files.
+  String Handling
+- Uses strdup, fgets, and manual newline stripping for safe input handling.
+  Input Validation
+- Phone numbers, names, and ages are validated with retry logic.
+  Modular Design
+- All major operations are implemented as separate functions for clarity and maintainability.
