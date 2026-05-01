@@ -28,14 +28,15 @@ This project was built to practice low‑level systems programming concepts whil
 
 📂 File Structure
 /address-book
-│── addressbook.c      # Main program and all functionality
-│── README.md          # Project documentation
-│── sample_input.txt   # Example input file
-│── output_report.txt  # Example human-readable output
+│── addressbook.c       Main program and all functionality
+│── README.md           Project documentation
+│── sample_input.txt    Example input file
+│── output_report.txt   Example human-readable output
 
 🖥️ How to Compile & Run
-gcc addressbook.c -o addressbook
-./addressbook
+- gcc addressbook.c -o addressbook
+- ./addressbook
+
 📄 Example Input File Format
 John
 Doe
